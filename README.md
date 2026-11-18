@@ -16,6 +16,8 @@ Repository ini dibuat untuk memenuhi tugas **Praktikum 8: PHP dan Database MySQL
   * `stok` (INT, 4)[cite: 2]
 
 ---
+<img width="500" height="322" alt="Cuplikan layar 2026-11-18 113048" src="https://github.com/user-attachments/assets/3425e863-3560-48f4-a19a-774e1dfa7fda" />
+
 
 ### 2. Membuat Koneksi Database (`koneksi.php`)
 Membuat file koneksi untuk menghubungkan PHP dengan database MySQL menggunakan ekstensi `mysqli`.
@@ -31,15 +33,14 @@ if ($conn == false) {
     die();
 }
 ?>
-### 3. Menampilkan Data / Read (index.php)
+3. Menampilkan Data / Read (index.php)
 Membuat file utama untuk menampilkan seluruh data barang dari database ke dalam bentuk tabel HTML
 lengkap dengan styling CSS dan tombol aksi (Ubah & Hapus).
-
-### 4. Menambah Data / Create (tambah.php)
+4. Menambah Data / Create (tambah.php)
 Membuat form input data baru beserta fitur upload file gambar produk yang akan disimpan ke dalam
 folder gambar/ dan datanya dimasukkan ke tabel data_barang.
 
-### 5. Mengubah Data / Update (ubah.php)
+5. Mengubah Data / Update (ubah.php)
 Membuat form edit data berdasarkan id_barang untuk memperbarui informasi produk yang sudah ada di database.
 
 ### 6. Menghapus Data / Delete (hapus.php)
